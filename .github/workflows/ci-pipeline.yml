@@ -20,11 +20,11 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - name: Coveralls GitHub Action
-      uses: coverallsapp/github-action@v2.3.4
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v4
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm test
+    - name: Coveralls GitHub Action
+      uses: coverallsapp/github-action@v2.3.4
