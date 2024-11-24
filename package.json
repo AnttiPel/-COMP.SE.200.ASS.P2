@@ -4,7 +4,7 @@
   "description": "School assignment part 2",
   "main": "index.js",
   "scripts": {
-    "test": "npm install && jest"
+    "test": "npm install && jest --coverage"
   },
   "author": "AP & LR",
   "license": "ISC",
