@@ -1,16 +1,16 @@
 {
   "name": "-comp.se.200.ass.p2",
   "version": "1.0.0",
-  "description": "",
+  "description": "School assignment part 2",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\""
+    "test": "npm install && jest"
   },
   "author": "AP & LR",
   "license": "ISC",
   "dependencies": {
-    "jest": "^29.7.0",
-    "jest-chain": "^1.1.6",
-    "jest-extended": "^4.0.2"
+    "jest": "29.7.0",
+    "jest-chain": "1.1.6",
+    "jest-extended": "4.0.2"
   }
 }
