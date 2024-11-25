@@ -1,4 +1,4 @@
-import repeat from '../repeat.js'
+import repeat from './repeat.js'
 import baseToString from './baseToString.js'
 import castSlice from './castSlice.js'
 import hasUnicode from './hasUnicode.js'

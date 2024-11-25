@@ -1,5 +1,5 @@
-import slice from './slice.js'
-import toInteger from './toInteger.js'
+import slice from './.internal/slice.js'
+import toInteger from './.internal/toInteger.js'
 
 /**
  * Creates a slice of `array` with `n` elements dropped from the beginning.

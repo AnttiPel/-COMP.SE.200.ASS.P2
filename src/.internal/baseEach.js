@@ -1,5 +1,5 @@
 import baseForOwn from './baseForOwn.js'
-import isArrayLike from '../isArrayLike.js'
+import isArrayLike from './isArrayLike.js'
 
 /**
  * The base implementation of `forEach`.

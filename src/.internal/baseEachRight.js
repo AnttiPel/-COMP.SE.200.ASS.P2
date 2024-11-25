@@ -1,5 +1,5 @@
 import baseForOwnRight from './baseForOwnRight.js'
-import isArrayLike from '../isArrayLike.js'
+import isArrayLike from './isArrayLike.js'
 
 /**
  * The base implementation of `forEachRight`.

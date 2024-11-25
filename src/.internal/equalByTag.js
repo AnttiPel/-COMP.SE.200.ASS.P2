@@ -1,4 +1,4 @@
-import eq from '../eq.js'
+import eq from './eq.js'
 import equalArrays from './equalArrays.js'
 import mapToArray from './mapToArray.js'
 import setToArray from './setToArray.js'

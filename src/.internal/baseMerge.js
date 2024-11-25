@@ -2,8 +2,8 @@ import Stack from './Stack.js'
 import assignMergeValue from './assignMergeValue.js'
 import baseFor from './baseFor.js'
 import baseMergeDeep from './baseMergeDeep.js'
-import isObject from '../isObject.js'
-import keysIn from '../keysIn.js'
+import isObject from './isObject.js'
+import keysIn from './keysIn.js'
 
 /**
  * The base implementation of `merge` without support for multiple sources.

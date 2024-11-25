@@ -3,8 +3,8 @@ import equalArrays from './equalArrays.js'
 import equalByTag from './equalByTag.js'
 import equalObjects from './equalObjects.js'
 import getTag from './getTag.js'
-import isBuffer from '../isBuffer.js'
-import isTypedArray from '../isTypedArray.js'
+import isBuffer from './isBuffer.js'
+import isTypedArray from './isTypedArray.js'
 
 /** Used to compose bitmasks for value comparisons. */
 const COMPARE_PARTIAL_FLAG = 1

@@ -1,7 +1,7 @@
 import assignValue from './assignValue.js'
 import castPath from './castPath.js'
 import isIndex from './isIndex.js'
-import isObject from '../isObject.js'
+import isObject from './isObject.js'
 import toKey from './toKey.js'
 
 /**

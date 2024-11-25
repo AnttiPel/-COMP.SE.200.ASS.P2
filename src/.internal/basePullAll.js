@@ -1,4 +1,4 @@
-import map from '../map.js'
+import map from './map.js'
 import baseIndexOf from './baseIndexOf.js'
 import baseIndexOfWith from './baseIndexOfWith.js'
 import copyArray from './copyArray.js'

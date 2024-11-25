@@ -1,3 +1,5 @@
+import { isObjectLike } from "../src/.internal/isObjectLike";
+
 describe("Basic Jest Test", () => {
   it("should add two numbers correctly", () => {
     const add = (a, b) => a + b;

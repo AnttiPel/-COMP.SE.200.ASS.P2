@@ -1,5 +1,5 @@
 import getTag from './.internal/getTag.js'
-import isObjectLike from './isObjectLike.js'
+import isObjectLike from './.internal/isObjectLike.js'
 
 /**
  * Checks if `value` is classified as a boolean primitive or object.

@@ -1,5 +1,5 @@
-import baseAt from './.internal/baseAt.js'
-import baseFlatten from './.internal/baseFlatten.js'
+import baseAt from './baseAt.js'
+import baseFlatten from './baseFlatten.js'
 
 /**
  * Creates an array of values corresponding to `paths` of `object`.

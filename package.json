@@ -3,24 +3,36 @@
   "version": "1.0.0",
   "description": "School assignment part 2",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "npm install && jest --coverage"
   },
   "author": "AP & LR",
   "license": "ISC",
   "dependencies": {
+    "-comp.se.200.ass.p2": "file:",
     "jest": "29.7.0",
     "jest-chain": "1.1.6",
     "jest-extended": "4.0.2"
   },
   "jest": {
+    "testEnvironment": "node",
     "collectCoverage": true,
     "coverageDirectory": "./coverage",
-    "coverageReporters": ["lcov", "text"],
+    "coverageReporters": [
+      "lcov",
+      "text"
+    ],
     "collectCoverageFrom": [
-      "**/*.js",
+      "src/**/*.js",
+      "!src/.internal/**",
       "!**/node_modules/**",
       "!**/coverage/**"
     ]
+  },
+  "devDependencies": {
+    "@babel/core": "7.26.0",
+    "@babel/preset-env": "7.26.0",
+    "babel-jest": "29.7.0"
   }
 }

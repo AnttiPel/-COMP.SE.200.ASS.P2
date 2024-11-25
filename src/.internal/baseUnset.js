@@ -1,5 +1,5 @@
 import castPath from './castPath.js'
-import last from '../last.js'
+import last from './last.js'
 import parent from './parent.js'
 import toKey from './toKey.js'
 

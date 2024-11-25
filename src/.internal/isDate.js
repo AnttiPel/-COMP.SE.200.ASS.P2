@@ -1,6 +1,6 @@
-import getTag from './.internal/getTag.js'
+import getTag from './getTag.js'
 import isObjectLike from './isObjectLike.js'
-import nodeTypes from './.internal/nodeTypes.js'
+import nodeTypes from './nodeTypes.js'
 
 /* Node.js helper references. */
 const nodeIsDate = nodeTypes && nodeTypes.isDate

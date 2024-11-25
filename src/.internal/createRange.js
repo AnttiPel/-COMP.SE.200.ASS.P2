@@ -1,5 +1,5 @@
 import baseRange from './baseRange.js'
-import toFinite from '../toFinite.js'
+import toFinite from './toFinite.js'
 
 /**
  * Creates a `range` or `rangeRight` function.

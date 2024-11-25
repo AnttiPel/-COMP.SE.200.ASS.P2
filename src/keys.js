@@ -1,5 +1,5 @@
 import arrayLikeKeys from './.internal/arrayLikeKeys.js'
-import isArrayLike from './isArrayLike.js'
+import isArrayLike from './.internal/isArrayLike.js'
 
 /**
  * Creates an array of the own enumerable property names of `object`.

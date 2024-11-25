@@ -1,4 +1,4 @@
-import baseAssignValue from './.internal/baseAssignValue.js'
+import baseAssignValue from './baseAssignValue.js'
 import reduce from './reduce.js'
 
 /** Used to check objects for own properties. */

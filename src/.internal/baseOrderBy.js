@@ -2,7 +2,7 @@ import baseEach from './baseEach.js'
 import baseSortBy from './baseSortBy.js'
 import baseGet from './baseGet.js'
 import compareMultiple from './compareMultiple.js'
-import isArrayLike from '../isArrayLike.js'
+import isArrayLike from './isArrayLike.js'
 
 const identity = (value) => value
 

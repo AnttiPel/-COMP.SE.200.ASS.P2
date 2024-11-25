@@ -1,7 +1,7 @@
 import SetCache from './SetCache.js'
 import arrayIncludes from './arrayIncludes.js'
 import arrayIncludesWith from './arrayIncludesWith.js'
-import map from '../map.js'
+import map from './map.js'
 import cacheHas from './cacheHas.js'
 
 /**

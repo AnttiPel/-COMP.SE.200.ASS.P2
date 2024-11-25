@@ -1,5 +1,5 @@
 import isStrictComparable from './isStrictComparable.js'
-import keys from '../keys.js'
+import keys from './keys.js'
 
 /**
  * Gets the property names, values, and compare flags of `object`.

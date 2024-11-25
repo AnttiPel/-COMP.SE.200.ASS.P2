@@ -1,5 +1,5 @@
 import SetCache from './SetCache.js'
-import some from '../some.js'
+import some from './some.js'
 import cacheHas from './cacheHas.js'
 
 /** Used to compose bitmasks for value comparisons. */
