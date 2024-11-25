@@ -1,4 +1,4 @@
-import { isObject } from "../src/.internal/isObject";
+import isObject from "../src/isObject";
 
 describe("Basic Jest Test", () => {
   it("should add two numbers correctly", () => {

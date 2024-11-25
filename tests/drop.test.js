@@ -1,13 +1,21 @@
-import { drop } from "../src/.internal/drop";
+import drop from "../src/drop";
 
-describe("Basic Jest Test", () => {
-  it("should add two numbers correctly", () => {
-    const add = (a, b) => a + b;
-    expect(add(2, 3)).toBe(5);
+const array = [1, 2, 3];
+
+describe("Product deletion", () => {
+  it("should delete first product", () => {
+    expect(drop(array)).toEqual([2, 3]);
   });
 
-  it("should check if an array contains a value", () => {
-    const array = [1, 2, 3];
-    expect(array).toContain(2);
+  it("should delete first two products", () => {
+    expect(drop([1, 2, 3], 2)).toEqual([3]);
+  });
+
+  it("should delete first five products (all)", () => {
+    expect(drop(array, 5)).toEqual([]);
+  });
+
+  it("should not delete any products", () => {
+    expect(drop(array, 0)).toEqual([1, 2, 3]);
   });
 });

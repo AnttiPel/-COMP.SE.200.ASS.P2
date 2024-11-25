@@ -1,4 +1,4 @@
-import { isLength } from "../src/.internal/isLength";
+import isLength from "../src/isLength";
 
 describe("Basic Jest Test", () => {
   it("should add two numbers correctly", () => {

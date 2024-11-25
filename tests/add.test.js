@@ -1,13 +1,17 @@
-import { add } from "../src/.internal/add.js";
+import add from "../src/add.js";
 
-describe("Basic Jest Test", () => {
-  it("should add two numbers correctly", () => {
-    const add = (a, b) => a + b;
-    expect(add(2, 3)).toBe(5);
+const oldPrice = 6;
+const priceToAdd = 4;
+const total = 10;
+
+describe("Shopping cart total", () => {
+  it("should update shopping cart total after adding item to basket", () => {
+    const result = add(oldPrice, priceToAdd);
+    expect(result).toBe(total);
   });
 
-  it("should check if an array contains a value", () => {
-    const array = [1, 2, 3];
-    expect(array).toContain(2);
+  it("should update shopping cart total after removing item from basket", () => {
+    const result = add(total, -priceToAdd);
+    expect(result).toBe(oldPrice);
   });
 });

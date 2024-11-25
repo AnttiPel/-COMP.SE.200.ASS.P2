@@ -1,4 +1,4 @@
-import { isBoolean } from "../src/.internal/isBoolean";
+import isBoolean from "../src/isBoolean";
 
 describe("Basic Jest Test", () => {
   it("should add two numbers correctly", () => {

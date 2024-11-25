@@ -1,4 +1,4 @@
-import { memoize } from "../src/.internal/memoize";
+import memoize from "../src/memoize";
 
 describe("Basic Jest Test", () => {
   it("should add two numbers correctly", () => {

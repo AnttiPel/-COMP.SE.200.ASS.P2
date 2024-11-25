@@ -1,4 +1,4 @@
-import { eq } from "../src/.internal/eq";
+import eq from "../src/eq";
 
 describe("Basic Jest Test", () => {
   it("should add two numbers correctly", () => {

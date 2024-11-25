@@ -1,4 +1,4 @@
-import { keys } from "../src/.internal/keys";
+import keys from "../src/keys";
 
 describe("Basic Jest Test", () => {
   it("should add two numbers correctly", () => {

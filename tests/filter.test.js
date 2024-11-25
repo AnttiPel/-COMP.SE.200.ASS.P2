@@ -1,4 +1,4 @@
-import { filter } from "../src/.internal/filter";
+import filter from "../src/filter";
 
 describe("Basic Jest Test", () => {
   it("should add two numbers correctly", () => {

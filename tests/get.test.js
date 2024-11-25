@@ -1,4 +1,4 @@
-import { get } from "../src/.internal/get";
+import get from "../src/get";
 
 describe("Basic Jest Test", () => {
   it("should add two numbers correctly", () => {
