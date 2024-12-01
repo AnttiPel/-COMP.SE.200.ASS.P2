@@ -10,15 +10,16 @@
   "author": "AP & LR",
   "license": "ISC",
   "dependencies": {
-    "-comp.se.200.ass.p2": "file:",
-    "jest": "29.7.0",
-    "jest-chain": "1.1.6",
-    "jest-extended": "4.0.2"
+    "-comp.se.200.ass.p2": "file:"
   },
   "jest": {
     "testEnvironment": "node",
     "collectCoverage": true,
     "coverageDirectory": "./coverage",
+    "setupFilesAfterEnv": [
+      "jest-extended/all",
+      "jest-chain"
+    ],
     "coverageReporters": [
       "lcov",
       "text"
@@ -33,6 +34,9 @@
   "devDependencies": {
     "@babel/core": "7.26.0",
     "@babel/preset-env": "7.26.0",
-    "babel-jest": "29.7.0"
+    "babel-jest": "29.7.0",
+    "jest": "29.7.0",
+    "jest-chain": "1.1.6",
+    "jest-extended": "4.0.2"
   }
 }
