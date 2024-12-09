@@ -13,3 +13,4 @@ CI (Continuous integration) made using Github Actions. Coverage is generated and
 - **72.72%** Branches  `32/44`
 - **100%** Functions  `11/11`
 - **100%** Lines  `34/34`
+
